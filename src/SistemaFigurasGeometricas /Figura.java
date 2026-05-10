@@ -10,6 +10,7 @@ public abstract class Figura {
     abstract double calcularArea();
     abstract double calcularPerimetro();
     public void describir(){
+        System.out.println("\n -----------------------------");
         System.out.println("Color: " + color);
         if(rellena){
             System.out.println("Esta rellena");
